@@ -1,0 +1,23 @@
+{
+    "name": "duckcash-vscode-theme",
+    "displayName": "Duckcash VSCode Theme",
+    "description": "Duckcash Darkmode VSCode Theme",
+    "publisher": "duckcash",
+    "version": "0.0.1",
+    "repository": "https://github.com/Casual-Seb/duckcash-vscode-theme",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "duckcash",
+                "uiTheme": "vs-dark",
+                "path": "./themes/duckcash-color-theme.json"
+            }
+        ]
+    }
+}
